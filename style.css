@@ -1,0 +1,60 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p, h1 {
+    color: rgb(51, 117, 76);
+}
+
+h2 {
+    color: rgb(51, 117, 76);
+}
+
+body {
+    background-color:rgb(44, 44, 44);
+}
+
+p {
+    color: gray;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.full-page {
+    height: 100%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width:75%;
+
+}
+
+.center-begin{
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+.text{
+    text-align:center;
+}

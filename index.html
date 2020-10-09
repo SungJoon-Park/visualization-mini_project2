@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Story of American Colleges</title>
+
+    <!-- Milligram CSS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <!-- custom stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="full-page">
+      <div class="center-begin">
+        <h1><b>Story of American Colleges</b></h1>
+        <h2>
+          <b>By Brishti Saha, Ga Young Lee, Sung Joon Park, Mooyeong Lee</b>
+        </h2>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <h2><b> Introduction </b></h2>
+        <h3 class="center">
+          We chose the American University dataset because we were interested in
+          learning more information about the universities in the United States
+          as students ourselves. There are 1535 colleges listed in this dataset
+          with information about admission, geographical, tuition, and racial
+          statistics of American Universities from the year 2013.
+        </h3>
+        <h4 class="text">Topic 1: Tuition</h4>
+        <ul class="text">
+          <li>How does the degree of urbanization affect tuition?</li>
+          <li>
+            What is the relationship between student’s financial aid and student
+            loans?
+          </li>
+          <li>
+            How does the degree of urbanization play a role in students’
+            financial aid and loans?
+          </li>
+        </ul>
+        <h4 class="text">Topic 2: Admission</h4>
+        <ul class="text">
+          <li>Which universities have the most applicants in 2013?</li>
+          <li>Which universities have the lowest acceptance rate in 2013?</li>
+          <li>Which universities have the highest enrollment rate in 2013?</li>
+        </ul>
+        <h4 class="text">Topic 3: SAT/ACT Scores</h4>
+        <ul class="text">
+          <li>What are the average SAT/ACT scores by state?</li>
+          <li>Does school type and size have effects in SAT/ACT scores?</li>
+          <li>Does a higher SAT/ACT score yield better on-time graduation rate?</li>
+        </ul>
+        <h4 class="text">Topic 4: Diversity</h4>
+        <ul class="text">
+          <li>Which state has the highest minority rate?</li>
+          <li>Which state has the highest minority undergraduate enrollment?</li>
+          <li>Which state has the highest nonresident undergraduate enrollment rate?</li>
+        </ul>
+      </div>
+
+      <h2><b>Topic 1: Tuition</b></h2>
+      <div class="center">
+        <h3>How does the degree of urbanization affect tuition?</h3>
+        <h4>
+          The degree of urbanization differs in every state but in general,
+          colleges in the suburbs and in cities tend to be more expensive than
+          colleges in rural places or towns.
+        </h4>
+        <div
+          class="tableauPlaceholder"
+          id="viz1602207626042"
+          style="
+            position: relative;
+            width: 100%;
+            height: 825px;
+            overflow: hidden;
+            display: block;
+          "
+        >
+          <noscript
+            ><a href="#"
+              ><img
+                alt=" "
+                src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Proj2-Urban&#47;Urban&#47;1_rss.png"
+                style="border: none" /></a></noscript
+          ><object class="tableauViz" style="display: none">
+            <param
+              name="host_url"
+              value="https%3A%2F%2Fpublic.tableau.com%2F"
+            />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param name="name" value="Proj2-Urban&#47;Urban" />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param
+              name="static_image"
+              value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Proj2-Urban&#47;Urban&#47;1.png"
+            />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+            <param name="language" value="en" />
+          </object>
+        </div>
+        <script type="text/javascript">
+          var divElement = document.getElementById('viz1602207626042');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          vizElement.style.width = '100%';
+          vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
+          var scriptElement = document.createElement('script');
+          scriptElement.src =
+            'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+
+      <div class="center">
+        <h3>
+          What is the relationship between student’s financial aid and student
+          loans?
+        </h3>
+        <h4>
+          The trend shows that there is a positive correlation between percent
+          of students receiving financial aid and percent of students taking out
+          loans. The more expensive colleges tend to offer less financial aid
+          and have fewer students taking out loans.
+        </h4>
+        <div
+          class="tableauPlaceholder"
+          id="viz1602210959615"
+          style="
+            position: relative;
+            width: 100%;
+            height: 825px;
+            overflow: hidden;
+            display: block;
+          "
+        >
+          <noscript
+            ><a href="#"
+              ><img
+                alt=" "
+                src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Proj2-Loans&#47;Loans&#47;1_rss.png"
+                style="border: none" /></a></noscript
+          ><object class="tableauViz" style="display: none">
+            <param
+              name="host_url"
+              value="https%3A%2F%2Fpublic.tableau.com%2F"
+            />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param name="name" value="Proj2-Loans&#47;Loans" />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param
+              name="static_image"
+              value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Proj2-Loans&#47;Loans&#47;1.png"
+            />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+            <param name="language" value="en" />
+          </object>
+        </div>
+        <script type="text/javascript">
+          var divElement = document.getElementById('viz1602210959615');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          vizElement.style.width = '100%';
+          vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
+          var scriptElement = document.createElement('script');
+          scriptElement.src =
+            'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+
+      <div class="center">
+        <h3>
+          How does the degree of urbanization play a role in students’ financial
+          aid and loans?
+        </h3>
+        <h4>
+          Schools in the suburbs and cities offer less financial aid and loans
+          than rural places and towns but also tend to have higher tuition
+          prices.
+        </h4>
+        <div
+          class="tableauPlaceholder"
+          id="viz1602211102042"
+          style="
+            position: relative;
+            width: 100%;
+            height: 825px;
+            overflow: hidden;
+            display: block;
+          "
+        >
+          <noscript
+            ><a href="#"
+              ><img
+                alt=" "
+                src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Proj2-UrbanLoans&#47;UrbanLoans&#47;1_rss.png"
+                style="border: none" /></a></noscript
+          ><object class="tableauViz" style="display: none">
+            <param
+              name="host_url"
+              value="https%3A%2F%2Fpublic.tableau.com%2F"
+            />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param name="name" value="Proj2-UrbanLoans&#47;UrbanLoans" />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param
+              name="static_image"
+              value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Proj2-UrbanLoans&#47;UrbanLoans&#47;1.png"
+            />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+            <param name="language" value="en" />
+          </object>
+        </div>
+        <script type="text/javascript">
+          var divElement = document.getElementById('viz1602211102042');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          vizElement.style.width = '100%';
+          vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
+          var scriptElement = document.createElement('script');
+          scriptElement.src =
+            'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+
+      <div class="center">
+        <h3>Explanation</h3>
+        <h4>
+          Tuition is a key factor in determining where a student ends up for
+          college. We wanted to see how urbanization plays a role in tuition
+          prices and how it differs in each state. The map allows us to compare
+          the different types of college locations within each state since
+          different states have a different range of urbanization colleges. The
+          scatterplot shows the percent of students receiving financial aid and
+          percent of students receiving loans. The darker dots in the
+          scatterplot represent a higher tuition price. Putting these two ideas
+          together, we get the last scatterplot which shows the relationship
+          between percent of students who receive financial aid and percent of
+          students with loans based on the college urbanization. The bigger size
+          represents a higher tuition rate.
+        </h4>
+      </div>
+
+      <h2><b>Topic 2: Admissions</b></h2>
+      <div class="center">
+        <h3>Which universities have the most applicants in 2013?</h3>
+        <h4>
+          The top 10 universities with the most applicants are shown below, with
+          the average of 47,338 applicants for those universities.The university
+          with the most applicants in 2013 is University of California-San Diego
+          with 60,832 applicants.
+        </h4>
+        <div
+          class="tableauPlaceholder"
+          id="viz1602213588318"
+          style="
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            display: block;
+          "
+        >
+          <noscript
+            ><a href="#"
+              ><img
+                alt=" "
+                src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ap&#47;Applicants-Jane&#47;Applicants&#47;1_rss.png"
+                style="border: none" /></a></noscript
+          ><object class="tableauViz" style="display: none">
+            <param
+              name="host_url"
+              value="https%3A%2F%2Fpublic.tableau.com%2F"
+            />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param name="name" value="Applicants-Jane&#47;Applicants" />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param
+              name="static_image"
+              value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ap&#47;Applicants-Jane&#47;Applicants&#47;1.png"
+            />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+            <param name="language" value="en" />
+          </object>
+        </div>
+        <script type="text/javascript">
+          var divElement = document.getElementById('viz1602213588318');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          vizElement.style.width = '100%';
+          vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
+          var scriptElement = document.createElement('script');
+          scriptElement.src =
+            'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+
+      <div class="center">
+        <h3>Which universities have the lowest acceptance rate in 2013?</h3>
+        <h4>
+          Among the universities in the dataset, Stanford University has the
+          lowest acceptance rate in 2013 with 5.687%. 10 Universities with the
+          lowest acceptance rates are displayed, and it is notable that all of
+          their acceptance rates don’t exceed 10%.
+        </h4>
+        <div
+          class="tableauPlaceholder"
+          id="viz1602213612547"
+          style="
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            display: block;
+          "
+        >
+          <noscript
+            ><a href="#"
+              ><img
+                alt=" "
+                src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;Acceptancerate-Jane&#47;Acceptancerate&#47;1_rss.png"
+                style="border: none" /></a></noscript
+          ><object class="tableauViz" style="display: none">
+            <param
+              name="host_url"
+              value="https%3A%2F%2Fpublic.tableau.com%2F"
+            />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param name="name" value="Acceptancerate-Jane&#47;Acceptancerate" />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param
+              name="static_image"
+              value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;Acceptancerate-Jane&#47;Acceptancerate&#47;1.png"
+            />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+            <param name="language" value="en" />
+            <param name="filter" value="publish=yes" />
+          </object>
+        </div>
+        <script type="text/javascript">
+          var divElement = document.getElementById('viz1602213612547');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          vizElement.style.width = '100%';
+          vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
+          var scriptElement = document.createElement('script');
+          scriptElement.src =
+            'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+
+      <div class="center">
+        <h3>Which universities have the highest enrollment rate in 2013?</h3>
+        <h4>
+          University with the highest enrollment rate in 2013 is Shimer College
+          with 100%. Other notable universities with over 90% enrollment rate
+          are Hodges University, College of the Ozarks, and Antioch
+          University-Seattle. Enrollment rates are labeled next to the
+          universities. Universities’ acceptance rates are also plotted to
+          provide a sense of admission competitiveness.
+        </h4>
+        <div
+          class="tableauPlaceholder"
+          id="viz1602213637270"
+          style="
+            position: relative;
+            width: 100%;
+            height: 825px;
+            overflow: hidden;
+            display: block;
+          "
+        >
+          <noscript
+            ><a href="#"
+              ><img
+                alt=" "
+                src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;En&#47;Enrollmentrate-Jane&#47;Enrollmentrate&#47;1_rss.png"
+                style="border: none" /></a></noscript
+          ><object class="tableauViz" style="display: none">
+            <param
+              name="host_url"
+              value="https%3A%2F%2Fpublic.tableau.com%2F"
+            />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param name="name" value="Enrollmentrate-Jane&#47;Enrollmentrate" />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param
+              name="static_image"
+              value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;En&#47;Enrollmentrate-Jane&#47;Enrollmentrate&#47;1.png"
+            />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+            <param name="language" value="en" />
+            <param name="filter" value="publish=yes" />
+          </object>
+        </div>
+        <script type="text/javascript">
+          var divElement = document.getElementById('viz1602213637270');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          vizElement.style.width = '100%';
+          vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
+          var scriptElement = document.createElement('script');
+          scriptElement.src =
+            'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+
+      <div class="center">
+        <h3>Explanation</h3>
+        <h4>
+          In visualizing which universities have the highest number of
+          applicants and the lowest acceptance rate, we used bar charts to
+          easily compare the individual values between universities. We used a
+          scatter plot for the highest enrollment rate to list two pieces of
+          information: the enrollment rate as well as the acceptance rate.
+        </h4>
+      </div>
+
+      <!--BRYAN LEE-->
+
+      <h2><b>Topic 3: SAT/ACT Scores</b></h2>
+      <div class="center">
+        <h3>What are the average SAT/ACT scores by state?</h3>
+        <h4>
+          In order to examine the realtionshp between SAT/ACT scores and the
+          location, I have created two visualizations, map and ordered bar
+          chart. Here, I have used two main variables, "State Abbreviation" and
+          "SAT/ACT Avg Score scaled". "SAT/ACT Avg Score scaled" is data that I
+          computed from existing dataset. In order to solve different scoring
+          system between the ACT and SAT, I used linear scaling to ACT with
+          domain (0, 36) to (0, 2400). This allowed to put equal weight on both
+          test scores in 0 to 2400 scale, eliminating possible data discrepancy
+          for universities with more ACT scores.
+        </h4>
+        <!--Copy embedded code here and change style to match above-->
+        <div
+          class="tableauPlaceholder"
+          id="viz1602268780104"
+          style="
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            display: block;
+          "
+        >
+          <noscript
+            ><a href="#"
+              ><img
+                alt=" "
+                src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DashboardState&#47;DashboardState&#47;1_rss.png"
+                style="border: none" /></a></noscript
+          ><object class="tableauViz" style="display: none">
+            <param
+              name="host_url"
+              value="https%3A%2F%2Fpublic.tableau.com%2F"
+            />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param name="name" value="DashboardState&#47;DashboardState" />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param
+              name="static_image"
+              value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DashboardState&#47;DashboardState&#47;1.png"
+            />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+            <param name="language" value="en" />
+            <param name="filter" value="publish=yes" />
+          </object>
+        </div>
+        <script type="text/javascript">
+          var divElement = document.getElementById('viz1602268780104');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          if (divElement.offsetWidth > 800) {
+            vizElement.style.width = '100%';
+            vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
+          } else if (divElement.offsetWidth > 500) {
+            vizElement.style.width = '100%';
+            vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
+          } else {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '827px';
+          }
+          var scriptElement = document.createElement('script');
+          scriptElement.src =
+            'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+
+      <div class="center">
+        <h3>Does school type and size have effects in SAT/ACT scores?</h3>
+        <h4>
+          As I was always curious on whether the order of institution have
+          relationship with the students academic scores, I have decided to
+          create a bar chart to demonstrate it. Moreover, I also grouped schools
+          by their sizes to inspect possible trend between the school size and
+          the test score.
+        </h4>
+        <!--Copy embedded code here and change style to match above-->
+        <div
+          class="tableauPlaceholder"
+          id="viz1602268728687"
+          style="
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            display: block;
+          "
+        >
+          <noscript
+            ><a href="#"
+              ><img
+                alt=" "
+                src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DashboardCategory&#47;DashboardCategory&#47;1_rss.png"
+                style="border: none" /></a></noscript
+          ><object class="tableauViz" style="display: none">
+            <param
+              name="host_url"
+              value="https%3A%2F%2Fpublic.tableau.com%2F"
+            />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param
+              name="name"
+              value="DashboardCategory&#47;DashboardCategory"
+            />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param
+              name="static_image"
+              value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DashboardCategory&#47;DashboardCategory&#47;1.png"
+            />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+            <param name="language" value="en" />
+            <param name="filter" value="publish=yes" />
+          </object>
+        </div>
+        <script type="text/javascript">
+          var divElement = document.getElementById('viz1602268728687');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          if (divElement.offsetWidth > 800) {
+            vizElement.style.width = '100%';
+            vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
+          } else if (divElement.offsetWidth > 500) {
+            vizElement.style.width = '100%';
+            vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
+          } else {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '727px';
+          }
+          var scriptElement = document.createElement('script');
+          scriptElement.src =
+            'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+
+      <div class="center">
+        <h3>
+          Does a higher SAT/ACT score yield better on-time graduation rate?
+        </h3>
+        <h4>
+          On this question I created a scatter plot to visualize the
+          distribution between the test score and average 4 year graduation rate
+          from each university. I have also created a text table by dividing
+          SAT/ACT scores into 5 categories.
+        </h4>
+        <!--Copy embedded code here and change style to match above-->
+        <div
+          class="tableauPlaceholder"
+          id="viz1602268802806"
+          style="
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            display: block;
+          "
+        >
+          <noscript
+            ><a href="#"
+              ><img
+                alt=" "
+                src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DashboardGraduationRate&#47;DashboardGraduationRate&#47;1_rss.png"
+                style="border: none" /></a></noscript
+          ><object class="tableauViz" style="display: none">
+            <param
+              name="host_url"
+              value="https%3A%2F%2Fpublic.tableau.com%2F"
+            />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param
+              name="name"
+              value="DashboardGraduationRate&#47;DashboardGraduationRate"
+            />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param
+              name="static_image"
+              value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DashboardGraduationRate&#47;DashboardGraduationRate&#47;1.png"
+            />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+            <param name="language" value="en" />
+            <param name="filter" value="publish=yes" />
+          </object>
+        </div>
+        <script type="text/javascript">
+          var divElement = document.getElementById('viz1602268802806');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          if (divElement.offsetWidth > 800) {
+            vizElement.style.width = '100%';
+            vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
+          } else if (divElement.offsetWidth > 500) {
+            vizElement.style.width = '100%';
+            vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
+          } else {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '727px';
+          }
+          var scriptElement = document.createElement('script');
+          scriptElement.src =
+            'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+
+      <div class="center">
+        <h3>Explanation</h3>
+        <h4>
+          The project allowed me solve my questions on the realtionshp between
+          the standardized test scores and other variables in United States.
+          With the support of dataset and data processing/visualization from
+          tableau, I created 3 dashboards to convey 3 data stories.
+        </h4>
+      </div>
+
+      <!--JOSH PARK-->
+
+      <h2><b>Topic 4: Diversity</b></h2>
+      <div class="center">
+        <h3>Which state has the highest minority rate?</h3>
+        <h4>
+          In order to find out which state has the highest minority rate, I have
+          created two visualizations, a bar chart and a stacked bar chart. I have
+          created a calculated field called "minority" which adds up percent of 
+          undergraduate enrollment that are Asian, Black or African American,
+          Hispanic/Latino, Native Hawaiian or Other Pacific Islanders, American
+          Indian or Alaska Native, two or more races, and lastly, Race/ethnicity
+          unknown. With two main variables, "minority" and "state abbreviation."
+          For a stacked bar chart, instead of using "minority," I have used separate
+          undergraduate enrollment averages to see the specific percentages.
+        </h4>
+        <!--Copy embedded code here and change style to match above-->
+        <div class='tableauPlaceholder' id='viz1602278791708' style="
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            display: block;">
+            <noscript><a href='#'><img alt=' '
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;vis_proj2nonresident&#47;minorityratedashboard&#47;1_rss.png'
+                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='vis_proj2nonresident&#47;minorityratedashboard' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;vis_proj2nonresident&#47;minorityratedashboard&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object>
+          </div>
+          <script type='text/javascript'>
+            var divElement = document.getElementById('viz1602278791708');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if (divElement.offsetWidth > 800){
+              vizElement.style.width = '100%';
+              vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+              }
+            else if (divElement.offsetWidth > 500){
+              vizElement.style.width = '100%';
+              vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+              }
+            else{
+              vizElement.style.width = '100%';
+              vizElement.style.height = '827px';
+              }
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+      </div>
+
+      <div class="center">
+        <h3>Which state has the highest minority undergraduate enrollment?</h3>
+        <h4>
+          In order to find out which state has the highest minority undergraduate enrollment and to 
+          compare it with the states that have highest minority rates, I have used two bar charts.
+          To calculate the total number of minority enrollments, I have created a calculated field 
+          called "minority #," that multiplies "undergraduate enrollment" and "minority," then dividing it by 100.
+        </h4>
+        <!--Copy embedded code here and change style to match above-->
+        <div class='tableauPlaceholder' id='viz1602280407734' style="
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            display: block;
+          "><noscript><a href='#'><img alt=' '
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;vis_proj2minorityenrollment&#47;minoritynumberdashboard&#47;1_rss.png'
+                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='vis_proj2minorityenrollment&#47;minoritynumberdashboard' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;vis_proj2minorityenrollment&#47;minoritynumberdashboard&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object>
+          </div>
+          <script type='text/javascript'>
+          var divElement = document.getElementById('viz1602280407734'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '827px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+      </div>
+
+      <div class="center">
+        <h3>Which state has the highest nonresident undergraduate enrollment rate?</h3>
+        <h4>
+          In order to find out the highest nonresident undergraduate enrollment rate,
+          I used "percent of undergraduate enrollment that are nonresident Alien" and 
+          "state abbreviation."
+        </h4>
+        <!--Copy embedded code here and change style to match above-->
+        <div class='tableauPlaceholder' id='viz1602280871560' style="
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            display: block;
+          "><noscript><a href='#'><img alt=' '
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;vis_proj2nonresident&#47;nonresidentdashboard&#47;1_rss.png'
+                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='vis_proj2nonresident&#47;nonresidentdashboard' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;vi&#47;vis_proj2nonresident&#47;nonresidentdashboard&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' /></object></div>
+        <script
+          type='text/javascript'>                    var divElement = document.getElementById('viz1602280871560'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '777px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      </div>
+
+      <div class="center">
+        <h3>Explanation</h3>
+        <h4>Diversity is another key factor of undergraduate enrollment. We wanted to find out 
+          minority rate, minority undergraduate enrollment, and nonresident enrollment, and
+          they have been displayed and compared through various visualizations. Through bar 
+          charts, the percentages of minority rate was easily compared. Specific rates of each
+          race has been shown through stacked bar charts, and map chart displayed distribution
+          of nonresident undergraduate enrollment across the states.
+        </h4>
+      </div>
+
+      <h2><b>Findings</b></h2>
+      <h3>FINDING GOES HERE</h3>
+
+      <h2><b>Lessons Learned</b></h2>
+      <h3>LESSONS LEARNED GOES HERE</h3>
+    </div>
+  </body>
+</html>
